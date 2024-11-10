@@ -1,0 +1,166 @@
+/* App.css */
+
+/* Estilos generales */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor Principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Banner */
+  .banner {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .banner .btn {
+    margin: 10px;
+  }
+  
+  /* Search Component */
+  form.d-flex {
+    margin: 20px 0;
+    justify-content: center;
+  }
+  
+  form.d-flex input {
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+  
+  form.d-flex button {
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+  
+  /* Sales Table */
+  .table {
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+  
+  /* Sales Empty or Error */
+  .sales-error, .sales-empty {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 20px;
+  }
+  
+  /* Results */
+  .results {
+    margin-top: 20px;
+  }
+  
+  .results h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .card {
+    margin: 10px 0;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .card .card-body {
+    padding: 15px;
+  }
+  
+  .card .card-title {
+    font-size: 1.25rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .card .card-text {
+    margin: 5px 0;
+  }
+  
+  .card .rating {
+    color: #ffc107;
+  }
+  
+  /* Product Details */
+  .card.mt-5 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 40px;
+  }
+  
+  .card.mt-5 img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    max-width: 80%;
+    object-fit: cover;
+  }
+  
+  .card.mt-5 .card-body {
+    padding: 20px;
+  }
+  
+  .card.mt-5 .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card.mt-5 .card-text {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .card.mt-5 .rating {
+    color: #ffc107;
+    margin-bottom: 15px;
+  }
+  
+  .card.mt-5 .btn-success {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+  }
+  
